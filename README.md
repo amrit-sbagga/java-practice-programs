@@ -17,10 +17,11 @@ mvn compile
 mvn test
 ```
 
-Run a specific class (replace with your class):
+Run a topic demo under `com.practice` (replace with your fully qualified class name):
 
 ```bash
-mvn -q exec:java -Dexec.mainClass="com.practice.basic.oops.InheritanceDemo"
+mvn -q compile
+java -cp target/classes com.practice.basic.oops.InheritanceDemo
 ```
 
 Or run `main` from your IDE (IntelliJ / VS Code Java extension).
@@ -166,8 +167,11 @@ practice-programs/   Interview coding templates (requirements only — you imple
 Separate folder with **empty templates** (requirement in Javadoc, no solution). See `practice-programs/README.md` for the full list.
 
 ```bash
-mvn -q compile exec:java -Dexec.mainClass=Fibonacci
+mvn -q compile
+java -cp target/classes Fibonacci
 ```
+
+Use the simple class name (e.g. `AnagramCheck`, `IsPrime`) — see `practice-programs/README.md`.
 
 ## Git workflow
 

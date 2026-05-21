@@ -6,12 +6,16 @@ Files use the **default package** (no `package` line) so names stay simple: `Fib
 
 ## Run from terminal
 
+From the project root (`java-practice-programs`):
+
 ```bash
-cd java-practice-programs
-mvn -q compile exec:java -Dexec.mainClass=Fibonacci
+mvn -q compile
+java -cp target/classes AnagramCheck
 ```
 
-Or run `main` from your IDE after opening this folder as part of the Maven project.
+Replace `AnagramCheck` with any class name below (no `.java` suffix), e.g. `Fibonacci`, `IsPrime`, `OddEven`.
+
+Or run `main` from your IDE after opening the Maven project.
 
 ## Programs
 
