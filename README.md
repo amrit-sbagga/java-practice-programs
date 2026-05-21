@@ -2,10 +2,8 @@
 
 Core Java practice organized by topic. One class per exercise; commit as you complete programs.
 
-## Why Maven (not Gradle)?
-
 - **Maven** fits this repo: one `pom.xml`, standard `src/main/java` layout, easy in any IDE.
-- **Gradle** is better for large multi-module apps; you can migrate later if needed.
+- **Gradle** is better for large multi-module apps; (migrate later if needed).
 
 **JDK:** 17 (LTS). Install with `java -version` and set `JAVA_HOME` if needed.
 
@@ -114,23 +112,6 @@ practice-programs/   Interview coding templates (requirements only — you imple
 | `SwitchStringsDemo` | `switch` on `String` (Java 7) |
 | `FilesNioDemo` | `Files.readAllLines`, `Paths.get` |
 | `ForkJoinDemo` | `RecursiveTask` sum (intro) |
-
-### `java8`
-
-| Program | Idea |
-|---------|------|
-| `LambdaExpressionDemo` | `(a, b) -> ...` vs anonymous classes; Comparator lambda |
-| `FunctionalInterfaceDemo` | Custom `@FunctionalInterface`; SAM; default methods on FI |
-| `PredicateFunctionConsumerDemo` | `Predicate`, `Function`, `Consumer`, `Supplier` |
-| `BiFunctionUnaryOperatorDemo` | `BiFunction`, `BinaryOperator`, `UnaryOperator`, `BiPredicate` |
-| `MethodReferenceDemo` | `Class::method`, `instance::method`, constructor refs |
-| `StreamBasicsDemo` | `filter`, `map`, `distinct`, `collect` |
-| `StreamReduceCollectDemo` | `reduce`, `max`/`min`, `findFirst`, joining |
-| `OptionalDemo` | `of`, `empty`, `map`, `orElse`, `orElseGet`, `ifPresent` |
-| `DefaultStaticInterfaceDemo` | Default + static methods on interfaces |
-| `DateTimeApiDemo` | `LocalDate`, `LocalDateTime`, `Period`, formatters |
-| *(create)* `StreamParallelDemo` | `parallelStream`, when it helps / hurts |
-| *(create)* `CollectorsGroupingDemo` | `groupingBy`, `partitioningBy`, `counting` |
 
 ### `java8`
 
