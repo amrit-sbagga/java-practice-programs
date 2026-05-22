@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Requirement:
  * Count vowels (a,e,i,o,u) in a string — case insensitive.
